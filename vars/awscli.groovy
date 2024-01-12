@@ -4,7 +4,7 @@
 def call(){
     sh """
        sudo yum update 
-       sudo yum install awscli -y
+       sudo yum install aws-cli -y
       """
 
 }
